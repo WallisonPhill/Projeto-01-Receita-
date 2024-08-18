@@ -8,9 +8,10 @@
 }
 
 body {
-  background-image: url(./Assets/background.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(./Assets/background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
