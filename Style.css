@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: Alice, 'sans-serif';
@@ -24,15 +24,14 @@ body {
 
 .container img {
   height: 400px;
-  width: 750px;
+  width: 800px;
  
   padding: 25px;
 }
 
 main {
   padding-left: 45px;
-
-  height: 968px;
+  
   width: 650px;
 }
 
@@ -49,12 +48,19 @@ ul {
   padding-left: 30px;
 }
 
+.border {
+  margin-top: 8px;
+  border-bottom: 4px solid rgb(145, 36, 3);
+}
+
 #preparo {
   margin-top: 14px;
 }
 
 #preparo p {
   margin-top: 10px;
+
+  padding-bottom: 30px;
 }
 
 h1, h2 {
@@ -73,7 +79,7 @@ h2 {
 
 ul, p {
   color: #573A37;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
